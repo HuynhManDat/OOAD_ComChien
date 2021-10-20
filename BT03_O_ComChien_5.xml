@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="BT03_O_ComChien_5">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_UZ5CgDHEEeyNi4H7mQGbtw" name="Sinh_Vien"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UbEuQDHEEeyNi4H7mQGbtw" name="sanPhamToNhomSanPham" memberEnd="_UbK04DHEEeyNi4H7mQGbtw _Uc7vcDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_Uc7vcDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UbK04DHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Uh2EoDHEEeyNi4H7mQGbtw" association="_UbEuQDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UczzoDHEEeyNi4H7mQGbtw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UcxXYDHEEeyNi4H7mQGbtw"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Uc7vcDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UjZj0DHEEeyNi4H7mQGbtw" association="_UbEuQDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdHVoDHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdGHgDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UdTi4DHEEeyNi4H7mQGbtw" name="sanPhamToHinhAnh" memberEnd="_UdVYEDHEEeyNi4H7mQGbtw _UdZCcDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_UdZCcDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UdVYEDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Uh2EoDHEEeyNi4H7mQGbtw" association="_UdTi4DHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdWmMDHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdV_IDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UdZCcDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Ui08EDHEEeyNi4H7mQGbtw" association="_UdTi4DHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdbesTHEEeyNi4H7mQGbtw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdbesDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Udcs0DHEEeyNi4H7mQGbtw" name="sanPhamToLichSuGia" memberEnd="_UddT4DHEEeyNi4H7mQGbtw _UdgXMDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_UdgXMDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UddT4DHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Uh2EoDHEEeyNi4H7mQGbtw" association="_Udcs0DHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Udd68DHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UddT4THEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UdgXMDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Uj7vUDHEEeyNi4H7mQGbtw" association="_Udcs0DHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdjagDHEEeyNi4H7mQGbtw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdiMYDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UdlPsDHEEeyNi4H7mQGbtw" name="sanPhamToSanPhamTrongGioHang" memberEnd="_Udl2wDHEEeyNi4H7mQGbtw _UdoTADHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_Udl2wDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Uh2EoDHEEeyNi4H7mQGbtw" association="_UdlPsDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Udmd0THEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Udmd0DHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UdoTADHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Uk-4MDHEEeyNi4H7mQGbtw" association="_UdlPsDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdqIMTHEEeyNi4H7mQGbtw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdqIMDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UdrWUDHEEeyNi4H7mQGbtw" name="gioHangToSanPhamTrongGioHang" memberEnd="_UdskcDHEEeyNi4H7mQGbtw _UdwO0DHEEeyNi4H7mQGbtw" navigableOwnedEnd="_UdwO0DHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UdskcDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UkdTwDHEEeyNi4H7mQGbtw" association="_UdrWUDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UduZoTHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UduZoDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UdwO0DHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Uk-4MDHEEeyNi4H7mQGbtw" association="_UdrWUDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Udw14THEEeyNi4H7mQGbtw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Udw14DHEEeyNi4H7mQGbtw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UdyrEDHEEeyNi4H7mQGbtw" name="phieuDatHangToLoaiPhieu" memberEnd="_UdyrETHEEeyNi4H7mQGbtw _Ud3jkDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_Ud3jkDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UdyrETHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UliR0DHEEeyNi4H7mQGbtw" association="_UdyrEDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ud1HUDHEEeyNi4H7mQGbtw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ud0gQDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Ud3jkDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UmNAMDHEEeyNi4H7mQGbtw" association="_UdyrEDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ud5YwTHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ud5YwDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ud6m4DHEEeyNi4H7mQGbtw" name="phieuDatHangToThongTinThanhToan" memberEnd="_Ud7N8DHEEeyNi4H7mQGbtw _Ud-RQDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_Ud-RQDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_Ud7N8DHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UliR0DHEEeyNi4H7mQGbtw" association="_Ud6m4DHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ud71ATHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ud71ADHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Ud-RQDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_Um1SUDHEEeyNi4H7mQGbtw" association="_Ud6m4DHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UeBUkDHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UeAtgDHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UeCisDHEEeyNi4H7mQGbtw" name="gioHangPhieuDatHang" memberEnd="_UeDJwDHEEeyNi4H7mQGbtw _UeGNEDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UeDJwDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UkdTwDHEEeyNi4H7mQGbtw" association="_UeCisDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UeDw0THEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UeDw0DHEEeyNi4H7mQGbtw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UeGNEDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UliR0DHEEeyNi4H7mQGbtw" association="_UeCisDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UeG0ITHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UeG0IDHEEeyNi4H7mQGbtw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UeHbMDHEEeyNi4H7mQGbtw" name="khachHangPhieuDatHang" memberEnd="_UeICQDHEEeyNi4H7mQGbtw _UeMTsDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UeICQDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UfQDoDHEEeyNi4H7mQGbtw" association="_UeHbMDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UeKegDHEEeyNi4H7mQGbtw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UeJ3cDHEEeyNi4H7mQGbtw"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UeMTsDHEEeyNi4H7mQGbtw" name="" visibility="public" type="_UliR0DHEEeyNi4H7mQGbtw" association="_UeHbMDHEEeyNi4H7mQGbtw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UeM6wTHEEeyNi4H7mQGbtw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UeM6wDHEEeyNi4H7mQGbtw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UfQDoDHEEeyNi4H7mQGbtw" name="KhachHang">
+    <ownedAttribute xmi:id="_Ug_JADHEEeyNi4H7mQGbtw" name="hoTen" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UhKvMDHEEeyNi4H7mQGbtw" name="ngaySinh" visibility="private" type="_UhL9UDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UhOZkDHEEeyNi4H7mQGbtw" name="cmnd" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UhTSEDHEEeyNi4H7mQGbtw" name="điaChi" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UhWVYDHEEeyNi4H7mQGbtw" name="đienThoai" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UhZYsDHEEeyNi4H7mQGbtw" name="tenĐangNhap" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UhdDEDHEEeyNi4H7mQGbtw" name="matKhau" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UhffUDHEEeyNi4H7mQGbtw" name="email" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_UhFPoDHEEeyNi4H7mQGbtw" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_UhL9UDHEEeyNi4H7mQGbtw" name="Date"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Uh2EoDHEEeyNi4H7mQGbtw" name="SanPham">
+    <ownedAttribute xmi:id="_UiOfIDHEEeyNi4H7mQGbtw" name="maSoSanPham" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UiRicDHEEeyNi4H7mQGbtw" name="tenNhaSuat" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UiVz4DHEEeyNi4H7mQGbtw" name="thongTinMoTa" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UiYQIDHEEeyNi4H7mQGbtw" name="giaBanHienHanh" visibility="private" type="_UiZeQDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_Uib6gDHEEeyNi4H7mQGbtw" name="tinhTrangSanPham" visibility="private" type="_UieWwDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UigzADHEEeyNi4H7mQGbtw" name="thongSoKiThuat" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_UiZeQDHEEeyNi4H7mQGbtw" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_UieWwDHEEeyNi4H7mQGbtw" name="Boolean"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ui08EDHEEeyNi4H7mQGbtw" name="HinhAnh">
+    <ownedAttribute xmi:id="_UjC-gDHEEeyNi4H7mQGbtw" name="maHinhAnh" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UjHP8DHEEeyNi4H7mQGbtw" name="điaChi" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UjZj0DHEEeyNi4H7mQGbtw" name="NhomSanPham">
+    <ownedAttribute xmi:id="_UjmYIDHEEeyNi4H7mQGbtw" name="maNhom" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UjqCgDHEEeyNi4H7mQGbtw" name="tenNhom" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Uj7vUDHEEeyNi4H7mQGbtw" name="LichSuGia">
+    <ownedAttribute xmi:id="_UkH8kDHEEeyNi4H7mQGbtw" name="thoiĐiem" visibility="private" type="_UhL9UDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UkKY0DHEEeyNi4H7mQGbtw" name="gia" visibility="private" type="_UiZeQDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UkdTwDHEEeyNi4H7mQGbtw" name="GioHang">
+    <ownedAttribute xmi:id="_UkphADHEEeyNi4H7mQGbtw" name="maGioHang" visibility="private" type="_UiZeQDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UktLYDHEEeyNi4H7mQGbtw" name="tongSoTien" visibility="private" type="_UiZeQDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Uk-4MDHEEeyNi4H7mQGbtw" name="SanPhamTrongGioHang">
+    <ownedAttribute xmi:id="_UlMTkDHEEeyNi4H7mQGbtw" name="tenSanPham" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UlOv0DHEEeyNi4H7mQGbtw" name="soLuong" visibility="private" type="_UiZeQDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UliR0DHEEeyNi4H7mQGbtw" name="PhieuĐatHang">
+    <ownedAttribute xmi:id="_UlxiYDHEEeyNi4H7mQGbtw" name="maPhieu" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_Ulz-oDHEEeyNi4H7mQGbtw" name="tenNguoiNhan" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_Ul3B8DHEEeyNi4H7mQGbtw" name="điaChiNguoiNhan" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_Ul6FQDHEEeyNi4H7mQGbtw" name="đienThoai" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UmNAMDHEEeyNi4H7mQGbtw" name="LoaiPhieu">
+    <ownedAttribute xmi:id="_UmabkDHEEeyNi4H7mQGbtw" name="loaiPhieu" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UmeF8DHEEeyNi4H7mQGbtw" name="đonGia" visibility="private" type="_UiZeQDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UmhwUDHEEeyNi4H7mQGbtw" name="thoiGianXuLy" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Um1SUDHEEeyNi4H7mQGbtw" name="ThongTinThanhToan">
+    <ownedAttribute xmi:id="_UnG_IDHEEeyNi4H7mQGbtw" name="loaiThe" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UnKCcDHEEeyNi4H7mQGbtw" name="soHieuThe" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UnNFwDHEEeyNi4H7mQGbtw" name="ngayHetHan" visibility="private" type="_UhL9UDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UnQJEDHEEeyNi4H7mQGbtw" name="hoTenNguoiChuThe" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+    <ownedAttribute xmi:id="_UnSlUDHEEeyNi4H7mQGbtw" name="maSoAnNinh" visibility="private" type="_UhFPoDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UoamsDHEEeyNi4H7mQGbtw" name="XemLichSuDangKyHocPhan_include_DangNhap" supplier="_UqKTIDHEEeyNi4H7mQGbtw" client="_UpvcYDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UogtUDHEEeyNi4H7mQGbtw" name="HocPhanTuongDuong_include_DangNhap" supplier="_UqKTIDHEEeyNi4H7mQGbtw" client="_UqBwQDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UojJkDHEEeyNi4H7mQGbtw" name="ThoiKhoaBieu_include_DangNhap" supplier="_UqKTIDHEEeyNi4H7mQGbtw" client="_Up3_QDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Uok-wDHEEeyNi4H7mQGbtw" name="DangXuat_extend_DangNhap" supplier="_UqKTIDHEEeyNi4H7mQGbtw" client="_UqitoDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UooCEDHEEeyNi4H7mQGbtw" name="DangKiHocPhan_include_DangNhap" supplier="_UqKTIDHEEeyNi4H7mQGbtw" client="_UpOfADHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Uop3QDHEEeyNi4H7mQGbtw" name="HuyHocPhan_extend_DangKyHocPhan" supplier="_UpOfADHEEeyNi4H7mQGbtw" client="_UqSO8DHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UothoDHEEeyNi4H7mQGbtw" name="XuatKetQuaDangKi_extend_DangKiHocPhan" supplier="_UpOfADHEEeyNi4H7mQGbtw" client="_UqbY4DHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UovW0DHEEeyNi4H7mQGbtw" name="XuatThoiKhoaBieu_extend_ThoiKhoaBieu" supplier="_Up3_QDHEEeyNi4H7mQGbtw" client="_UqrQgDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UozBMDHEEeyNi4H7mQGbtw" name="DoiMatKhau_extend_DangNhap" supplier="_UqKTIDHEEeyNi4H7mQGbtw" client="_UqzMUDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UpOfADHEEeyNi4H7mQGbtw" name="Đang_ki_hoc_phan" clientDependency="_UooCEDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UpvcYDHEEeyNi4H7mQGbtw" name="Xem_lich_su_đang_ki_hoc_phan" clientDependency="_UoamsDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Up3_QDHEEeyNi4H7mQGbtw" name="Thoi_khoa_bieu" clientDependency="_UojJkDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UqBwQDHEEeyNi4H7mQGbtw" name="Hoc_phan_tuong_đuong" clientDependency="_UogtUDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UqKTIDHEEeyNi4H7mQGbtw" name="Đang_nhap"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UqSO8DHEEeyNi4H7mQGbtw" name="Huy_hoc_phan" clientDependency="_Uop3QDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UqbY4DHEEeyNi4H7mQGbtw" name="Xuat_ket_qua_đang_ki" clientDependency="_UothoDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UqitoDHEEeyNi4H7mQGbtw" name="Đang_xuat" clientDependency="_Uok-wDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UqrQgDHEEeyNi4H7mQGbtw" name="Xuat_thoi_khoa_bieu" clientDependency="_UovW0DHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UqzMUDHEEeyNi4H7mQGbtw" name="Đoi_mat_khau" clientDependency="_UozBMDHEEeyNi4H7mQGbtw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UrGHQDHEEeyNi4H7mQGbtw" name="SinhVien_to_XemLichSuDangKyHocPhan" memberEnd="_UrGuUDHEEeyNi4H7mQGbtw _UrKYsDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_UrGuUDHEEeyNi4H7mQGbtw _UrKYsDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UrGuUDHEEeyNi4H7mQGbtw" name="src" type="_UZ5CgDHEEeyNi4H7mQGbtw" association="_UrGHQDHEEeyNi4H7mQGbtw"/>
+    <ownedEnd xmi:id="_UrKYsDHEEeyNi4H7mQGbtw" name="dst" type="_UpvcYDHEEeyNi4H7mQGbtw" association="_UrGHQDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UrMN4DHEEeyNi4H7mQGbtw" name="SinhVien_to_DangKiHocPhan" memberEnd="_UrM08DHEEeyNi4H7mQGbtw _UrOqIDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_UrM08DHEEeyNi4H7mQGbtw _UrOqIDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UrM08DHEEeyNi4H7mQGbtw" name="src" type="_UZ5CgDHEEeyNi4H7mQGbtw" association="_UrMN4DHEEeyNi4H7mQGbtw"/>
+    <ownedEnd xmi:id="_UrOqIDHEEeyNi4H7mQGbtw" name="dst" type="_UpOfADHEEeyNi4H7mQGbtw" association="_UrMN4DHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UrQfUDHEEeyNi4H7mQGbtw" name="SinhVien_to_HocPhanTuongDuong" memberEnd="_UrQfUTHEEeyNi4H7mQGbtw _UrTioDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_UrQfUTHEEeyNi4H7mQGbtw _UrTioDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UrQfUTHEEeyNi4H7mQGbtw" name="src" type="_UZ5CgDHEEeyNi4H7mQGbtw" association="_UrQfUDHEEeyNi4H7mQGbtw"/>
+    <ownedEnd xmi:id="_UrTioDHEEeyNi4H7mQGbtw" name="dst" type="_UqBwQDHEEeyNi4H7mQGbtw" association="_UrQfUDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UrV-4DHEEeyNi4H7mQGbtw" name="SinhVien_to_ThoiKhoaBieu" memberEnd="_UrV-4THEEeyNi4H7mQGbtw _UrYbIDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_UrV-4THEEeyNi4H7mQGbtw _UrYbIDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_UrV-4THEEeyNi4H7mQGbtw" name="src" type="_UZ5CgDHEEeyNi4H7mQGbtw" association="_UrV-4DHEEeyNi4H7mQGbtw"/>
+    <ownedEnd xmi:id="_UrYbIDHEEeyNi4H7mQGbtw" name="dst" type="_Up3_QDHEEeyNi4H7mQGbtw" association="_UrV-4DHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UraQUDHEEeyNi4H7mQGbtw" name="SinhVien_to_DangNhap" memberEnd="_Ura3YDHEEeyNi4H7mQGbtw _UrcskDHEEeyNi4H7mQGbtw" navigableOwnedEnd="_Ura3YDHEEeyNi4H7mQGbtw _UrcskDHEEeyNi4H7mQGbtw">
+    <ownedEnd xmi:id="_Ura3YDHEEeyNi4H7mQGbtw" name="src" type="_UZ5CgDHEEeyNi4H7mQGbtw" association="_UraQUDHEEeyNi4H7mQGbtw"/>
+    <ownedEnd xmi:id="_UrcskDHEEeyNi4H7mQGbtw" name="dst" type="_UqKTIDHEEeyNi4H7mQGbtw" association="_UraQUDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_UrkBUDHEEeyNi4H7mQGbtw" name="activityDiagramDKHP">
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_U-wDEDHEEeyNi4H7mQGbtw" name="End_1" incoming="_U-jOwDHEEeyNi4H7mQGbtw _U-lrADHEEeyNi4H7mQGbtw _U-ngMDHEEeyNi4H7mQGbtw _U-ouUDHEEeyNi4H7mQGbtw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_U-50EDHEEeyNi4H7mQGbtw" name="Start_1" outgoing="_U-YPoDHEEeyNi4H7mQGbtw"/>
+    <node xmi:type="uml:ForkNode" xmi:id="_U_DlEDHEEeyNi4H7mQGbtw" name="Synchronization_1" outgoing="_U-dvMDHEEeyNi4H7mQGbtw _U-e9UDHEEeyNi4H7mQGbtw _U-gygDHEEeyNi4H7mQGbtw _U-iAoDHEEeyNi4H7mQGbtw" incoming="_U-bS8DHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-YPoDHEEeyNi4H7mQGbtw" name="Start_1 to Đang_nhap" source="_U-50EDHEEeyNi4H7mQGbtw" target="_U9F2MDHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-bS8DHEEeyNi4H7mQGbtw" name="Đang_nhap to Synchronization_1" source="_U9F2MDHEEeyNi4H7mQGbtw" target="_U_DlEDHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-dvMDHEEeyNi4H7mQGbtw" name="Synchronization_1 to Đang_ky_hoc_phan" source="_U_DlEDHEEeyNi4H7mQGbtw" target="_U6f1MDHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-e9UDHEEeyNi4H7mQGbtw" name="Synchronization_1 to Lich_su_ĐKHP" source="_U_DlEDHEEeyNi4H7mQGbtw" target="_U4uTkDHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-gygDHEEeyNi4H7mQGbtw" name="Synchronization_1 to Thoi_khoa_bieu" source="_U_DlEDHEEeyNi4H7mQGbtw" target="_U4XHMDHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-iAoDHEEeyNi4H7mQGbtw" name="Synchronization_1 to Hoc_phan_tuong_đuong" source="_U_DlEDHEEeyNi4H7mQGbtw" target="_U3aE8DHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-jOwDHEEeyNi4H7mQGbtw" name="Đang_ky_hoc_phan to End_1" source="_U6f1MDHEEeyNi4H7mQGbtw" target="_U-wDEDHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-lrADHEEeyNi4H7mQGbtw" name="Thoi_khoa_bieu to End_1" source="_U4XHMDHEEeyNi4H7mQGbtw" target="_U-wDEDHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-ngMDHEEeyNi4H7mQGbtw" name="Hoc_phan_tuong_đuong to End_1" source="_U3aE8DHEEeyNi4H7mQGbtw" target="_U-wDEDHEEeyNi4H7mQGbtw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U-ouUDHEEeyNi4H7mQGbtw" name="Lich_su_ĐKHP to End_1" source="_U4uTkDHEEeyNi4H7mQGbtw" target="_U-wDEDHEEeyNi4H7mQGbtw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Ur28QDHEEeyNi4H7mQGbtw" name="He_thong" node="_U8PhoDHEEeyNi4H7mQGbtw _U8JbADHEEeyNi4H7mQGbtw _U8KpIDHEEeyNi4H7mQGbtw _U8NFYDHEEeyNi4H7mQGbtw _U81XgDHEEeyNi4H7mQGbtw _U84a0DHEEeyNi4H7mQGbtw" edge="_U8up0DHEEeyNi4H7mQGbtw _U8nVEDHEEeyNi4H7mQGbtw _U8kRwDHEEeyNi4H7mQGbtw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Ux6g8DHEEeyNi4H7mQGbtw" name="Sinh_vien" node="_U8Hl0DHEEeyNi4H7mQGbtw _U8LQMDHEEeyNi4H7mQGbtw _U8OTgDHEEeyNi4H7mQGbtw _U9A9sDHEEeyNi4H7mQGbtw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_Uz0lcDHEEeyNi4H7mQGbtw" name="Sinh_Vien" node="_U5fIkDHEEeyNi4H7mQGbtw _U5l2QDHEEeyNi4H7mQGbtw _U6YgcDHEEeyNi4H7mQGbtw _U6M6QDHEEeyNi4H7mQGbtw" edge="_U56mYDHEEeyNi4H7mQGbtw _U54KIDHEEeyNi4H7mQGbtw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_U0908DHEEeyNi4H7mQGbtw" name="He_Thong" node="_U5koIDHEEeyNi4H7mQGbtw _U6HasDHEEeyNi4H7mQGbtw" edge="_U5zRoDHEEeyNi4H7mQGbtw"/>
+    <group xmi:type="uml:StructuredActivityNode" xmi:id="_U3aE8DHEEeyNi4H7mQGbtw" name="Hoc_phan_tuong_đuong" outgoing="_U-ngMDHEEeyNi4H7mQGbtw" incoming="_U-iAoDHEEeyNi4H7mQGbtw"/>
+    <group xmi:type="uml:StructuredActivityNode" xmi:id="_U4XHMDHEEeyNi4H7mQGbtw" name="Thoi_khoa_bieu" outgoing="_U-lrADHEEeyNi4H7mQGbtw" incoming="_U-gygDHEEeyNi4H7mQGbtw"/>
+    <group xmi:type="uml:StructuredActivityNode" xmi:id="_U4uTkDHEEeyNi4H7mQGbtw" name="Lich_su_ĐKHP" outgoing="_U-ouUDHEEeyNi4H7mQGbtw" incoming="_U-e9UDHEEeyNi4H7mQGbtw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U5zRoDHEEeyNi4H7mQGbtw" name="Kiem_tra to Hien_thi_lich_su_đang_ki" source="_U6HasDHEEeyNi4H7mQGbtw" target="_U5koIDHEEeyNi4H7mQGbtw" inPartition="_U0908DHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U528ADHEEeyNi4H7mQGbtw" name="Kiem_tra to Chon_moc_thoi_gian__can_xem_lich_su_đang_ky" source="_U6HasDHEEeyNi4H7mQGbtw" target="_U5fIkDHEEeyNi4H7mQGbtw">
+        <ownedComment xmi:id="_U53jEDHEEeyNi4H7mQGbtw">
+          <body>Trường hợp sinh viên chọn thiếu, sinh viên quay lại thực hiện lại thao tác chọn mốc thời gian đăng ký&#xD;
+</body>
+        </ownedComment>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U54KIDHEEeyNi4H7mQGbtw" name="Xem_lich_su_đang_ki to End_1" source="_U5l2QDHEEeyNi4H7mQGbtw" target="_U6M6QDHEEeyNi4H7mQGbtw" inPartition="_Uz0lcDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U56mYDHEEeyNi4H7mQGbtw" name="Start_1 to Chon_moc_thoi_gian__can_xem_lich_su_đang_ky" source="_U6YgcDHEEeyNi4H7mQGbtw" target="_U5fIkDHEEeyNi4H7mQGbtw" inPartition="_Uz0lcDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U58bkDHEEeyNi4H7mQGbtw" name="Hien_thi_lich_su_đang_ki to Xem_lich_su_đang_ki" source="_U5koIDHEEeyNi4H7mQGbtw" target="_U5l2QDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U59psDHEEeyNi4H7mQGbtw" name="Chon_moc_thoi_gian__can_xem_lich_su_đang_ky to Kiem_tra" source="_U5fIkDHEEeyNi4H7mQGbtw" target="_U6HasDHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U5fIkDHEEeyNi4H7mQGbtw" name="Chon_moc_thoi_gian__can_xem_lich_su_đang_ky" outgoing="_U59psDHEEeyNi4H7mQGbtw" incoming="_U528ADHEEeyNi4H7mQGbtw _U56mYDHEEeyNi4H7mQGbtw" inPartition="_Uz0lcDHEEeyNi4H7mQGbtw">
+        <ownedComment xmi:id="_U5iy8DHEEeyNi4H7mQGbtw">
+          <body>Chọn đủ năm và học kỳ đã được đăng ký học phần &#xD;
+</body>
+        </ownedComment>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U5koIDHEEeyNi4H7mQGbtw" name="Hien_thi_lich_su_đang_ki" outgoing="_U58bkDHEEeyNi4H7mQGbtw" incoming="_U5zRoDHEEeyNi4H7mQGbtw" inPartition="_U0908DHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U5l2QDHEEeyNi4H7mQGbtw" name="Xem_lich_su_đang_ki" outgoing="_U54KIDHEEeyNi4H7mQGbtw" incoming="_U58bkDHEEeyNi4H7mQGbtw" inPartition="_Uz0lcDHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_U6HasDHEEeyNi4H7mQGbtw" name="Kiem_tra" outgoing="_U5zRoDHEEeyNi4H7mQGbtw _U528ADHEEeyNi4H7mQGbtw" incoming="_U59psDHEEeyNi4H7mQGbtw" inPartition="_U0908DHEEeyNi4H7mQGbtw">
+        <ownedComment xmi:id="_U6J28DHEEeyNi4H7mQGbtw">
+          <body>Kiểm tra xem sinh viên chọn đủ học kì và năm học hay chưa, nếu chưa chọn đủ thì chọn lại</body>
+        </ownedComment>
+      </node>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_U6M6QDHEEeyNi4H7mQGbtw" name="End_1" incoming="_U54KIDHEEeyNi4H7mQGbtw" inPartition="_Uz0lcDHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_U6YgcDHEEeyNi4H7mQGbtw" name="Start_1" outgoing="_U56mYDHEEeyNi4H7mQGbtw" inPartition="_Uz0lcDHEEeyNi4H7mQGbtw"/>
+    </group>
+    <group xmi:type="uml:StructuredActivityNode" xmi:id="_U6f1MDHEEeyNi4H7mQGbtw" name="Đang_ky_hoc_phan" outgoing="_U-jOwDHEEeyNi4H7mQGbtw" incoming="_U-dvMDHEEeyNi4H7mQGbtw">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8jDoDHEEeyNi4H7mQGbtw" name="Chon_danh_muc_mon_hoc to Tim_kiem_cac_mon_hoc" source="_U8Hl0DHEEeyNi4H7mQGbtw" target="_U8JbADHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8kRwDHEEeyNi4H7mQGbtw" name="Tim_kiem_cac_mon_hoc to Hien_thi_danh_sach_cac_mon_hoc" source="_U8JbADHEEeyNi4H7mQGbtw" target="_U8KpIDHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8mG8DHEEeyNi4H7mQGbtw" name="Hien_thi_danh_sach_cac_mon_hoc to Chon_mon_hoc_đang_ky" source="_U8KpIDHEEeyNi4H7mQGbtw" target="_U8LQMDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8nVEDHEEeyNi4H7mQGbtw" name="Ket_qua_đang_ky to End_1" source="_U8PhoDHEEeyNi4H7mQGbtw" target="_U84a0DHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8ojMDHEEeyNi4H7mQGbtw" name="Start_1 to Sinh_vien" source="_U9A9sDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8pxUDHEEeyNi4H7mQGbtw" name="Hien_thi_danh_sach_lop to Chon_lop_hoc_phan" source="_U8NFYDHEEeyNi4H7mQGbtw" target="_U8OTgDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8q_cDHEEeyNi4H7mQGbtw" name="Chon_mon_hoc_đang_ky to Hien_thi_danh_sach_lop" source="_U8LQMDHEEeyNi4H7mQGbtw" target="_U8NFYDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8s0oDHEEeyNi4H7mQGbtw" name="Chon_lop_hoc_phan to Kiem_tra" source="_U8OTgDHEEeyNi4H7mQGbtw" target="_U81XgDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8up0DHEEeyNi4H7mQGbtw" name="Kiem_tra to Ket_qua_đang_ky" source="_U81XgDHEEeyNi4H7mQGbtw" target="_U8PhoDHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U8v38DHEEeyNi4H7mQGbtw" name="Kiem_tra to Chon_mon_hoc_đang_ky" source="_U81XgDHEEeyNi4H7mQGbtw" target="_U8LQMDHEEeyNi4H7mQGbtw">
+        <ownedComment xmi:id="_U8xGEDHEEeyNi4H7mQGbtw">
+          <body>Kiểm tra môn học tiên quyết và môn học trước , nếu môn học bị dính môn học tiên quyết chưa được qua môn trước đó, sinh viên quay lại chọn môn học khác&#xD;
+</body>
+        </ownedComment>
+      </edge>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U8Hl0DHEEeyNi4H7mQGbtw" name="Chon_danh_muc_mon_hoc" outgoing="_U8jDoDHEEeyNi4H7mQGbtw" inPartition="_Ux6g8DHEEeyNi4H7mQGbtw">
+        <ownedComment xmi:id="_U8Iz8DHEEeyNi4H7mQGbtw">
+          <body>Chọn Đăng ký theo kế hoạch, đăng ký học lại, đăng ký học vượt, đăng ký học bù</body>
+        </ownedComment>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U8JbADHEEeyNi4H7mQGbtw" name="Tim_kiem_cac_mon_hoc" outgoing="_U8kRwDHEEeyNi4H7mQGbtw" incoming="_U8jDoDHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw">
+        <ownedComment xmi:id="_U8KCEDHEEeyNi4H7mQGbtw">
+          <body>Hệ thống hiện ra các môn học có thể đăng ký</body>
+        </ownedComment>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U8KpIDHEEeyNi4H7mQGbtw" name="Hien_thi_danh_sach_cac_mon_hoc" outgoing="_U8mG8DHEEeyNi4H7mQGbtw" incoming="_U8kRwDHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U8LQMDHEEeyNi4H7mQGbtw" name="Chon_mon_hoc_đang_ky" outgoing="_U8q_cDHEEeyNi4H7mQGbtw" incoming="_U8mG8DHEEeyNi4H7mQGbtw _U8v38DHEEeyNi4H7mQGbtw" inPartition="_Ux6g8DHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U8NFYDHEEeyNi4H7mQGbtw" name="Hien_thi_danh_sach_lop" outgoing="_U8pxUDHEEeyNi4H7mQGbtw" incoming="_U8q_cDHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U8OTgDHEEeyNi4H7mQGbtw" name="Chon_lop_hoc_phan" outgoing="_U8s0oDHEEeyNi4H7mQGbtw" incoming="_U8pxUDHEEeyNi4H7mQGbtw" inPartition="_Ux6g8DHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_U8PhoDHEEeyNi4H7mQGbtw" name="Ket_qua_đang_ky" outgoing="_U8nVEDHEEeyNi4H7mQGbtw" incoming="_U8up0DHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_U81XgDHEEeyNi4H7mQGbtw" name="Kiem_tra" outgoing="_U8up0DHEEeyNi4H7mQGbtw _U8v38DHEEeyNi4H7mQGbtw" incoming="_U8s0oDHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw">
+        <ownedComment xmi:id="_U81-kDHEEeyNi4H7mQGbtw">
+          <body>Kiểm tra số lượng lớp đã đăng ký thành công học phần, kiểm tra xem sinh viên đăng ký có trùng môn không, kiểm tra các học phần tiên quyết xem đã hợp lệ chưa để tiến hành đăng ký</body>
+        </ownedComment>
+      </node>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_U84a0DHEEeyNi4H7mQGbtw" name="End_1" incoming="_U8nVEDHEEeyNi4H7mQGbtw" inPartition="_Ur28QDHEEeyNi4H7mQGbtw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_U9A9sDHEEeyNi4H7mQGbtw" name="Start_1" outgoing="_U8ojMDHEEeyNi4H7mQGbtw" inPartition="_Ux6g8DHEEeyNi4H7mQGbtw"/>
+    </group>
+    <group xmi:type="uml:StructuredActivityNode" xmi:id="_U9F2MDHEEeyNi4H7mQGbtw" name="Đang_nhap" outgoing="_U-bS8DHEEeyNi4H7mQGbtw" incoming="_U-YPoDHEEeyNi4H7mQGbtw"/>
+  </packagedElement>
+</uml:Model>
