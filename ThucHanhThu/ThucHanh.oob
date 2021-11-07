@@ -3978,7 +3978,7 @@ SOURCE 0 Arial,8,N</a:FontList>
 <o:AssociationSymbol Id="o14">
 <a:CreationDate>1636271762</a:CreationDate>
 <a:ModificationDate>1636273010</a:ModificationDate>
-<a:Rect>((-12123,7947), (7952,9866))</a:Rect>
+<a:Rect>((-12123,7944), (7952,9863))</a:Rect>
 <a:ListOfPoints>((-11723,8909),(7552,8909))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
@@ -5627,7 +5627,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>THUCHANH</a:Code>
 <a:CreationDate>1636271422</a:CreationDate>
 <a:Creator>LENOVO</a:Creator>
-<a:ModificationDate>1636273418</a:ModificationDate>
+<a:ModificationDate>1636273419</a:ModificationDate>
 <a:Modifier>LENOVO</a:Modifier>
 <a:TargetModelID>C59FE1DD-7C52-4D3D-8D82-9FBFF5EABFCD</a:TargetModelID>
 <a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
